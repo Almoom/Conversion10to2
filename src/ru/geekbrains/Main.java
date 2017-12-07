@@ -22,7 +22,7 @@ public class Main {
         }
     }
     public static void Fun10to2(int n) {
-        if (n >= 2){
+        if (n > 1){
             if (n % 2 == 1) {
                 str = "1" + str;
                 n = n / 2;
